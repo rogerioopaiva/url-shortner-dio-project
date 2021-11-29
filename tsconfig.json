@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+      "lib": ["ES6", "DOM", "ES2017", "ES7"],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */                             /* Specify what JSX code is generated. */
+      "experimentalDecorators": true,                   /* Enable experimental support for TC39 stage 2 draft decorators. */
+      "emitDecoratorMetadata": true,                    /* Emit design-type metadata for decorated declarations in source files. */
+      "module": "commonjs",                                /* Specify what module code is generated. */                                 /* Specify the root folder within your source files. */
+      "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
+      "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */               /* Allow accessing UMD globals from modules. */
+      "resolveJsonModule": true,                        /* Enable importing .json files */
+      "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */                                 /* Specify a file that bundles all outputs into one JavaScript file. If `declaration` is true, also designates a file that bundles all .d.ts output. */
+      "outDir": "./dist",  
+      "rootDir": "./src/",                               /* Specify an output folder for all emitted files. */
+      "removeComments": true,                           /* Disable emitting comments. */
+      "noEmit": false,                                   /* Disable emitting files from a compilation. */                         /* Disable generating custom helper functions like `__extends` in compiled output. */
+      "noEmitOnError": false,                            /* Disable emitting files if any type checking errors are reported. */
+      "preserveConstEnums": true,                       /* Disable erasing `const enum` declarations in generated code. */                         /* Ensure that each file can be safely transpiled without relying on other imports. */
+      "allowSyntheticDefaultImports": true,             /* Allow 'import x from y' when a module doesn't have a default export. */
+      "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */                  /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */          /* Ensure that casing is correct in imports. */                                    /* Enable all strict type-checking options. */
+      "noImplicitAny": false,                            /* Enable error reporting for expressions and declarations with an implied `any` type.. */            /* Type catch clause variables as 'unknown' instead of 'any'. */
+      "alwaysStrict": true,                           /* Ensure 'use strict' is always emitted. */                  /* Skip type checking .d.ts files that are included with TypeScript. */                               /* Skip type checking all .d.ts files. */
+    }
+}
